@@ -7,10 +7,9 @@ function Header({ cartCount = 0 }) {
 
   return (
     <header className="header">
-      <h1 className="logo">
+      <h2 className="logo">
         <Link to="/">🌿 Paradise Nursery</Link>
-      </h1>
-
+      </h2>
       <nav className="nav">
         {location.pathname !== "/products" && (
           <Link to="/products" className="nav-link">Products</Link>
