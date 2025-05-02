@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 0px 30px;
     background-color: #f0f4f8;
-    border-bottom: 2px solid #cce7d0;
   }
   
   .logo a {
