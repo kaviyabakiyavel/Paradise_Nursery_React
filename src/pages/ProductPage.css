@@ -1,0 +1,6 @@
+.plant-image {
+    height: 500px;       /* Set desired standard height */
+    width: 400px;         /* Maintain aspect ratio */
+    object-fit: cover;   /* Prevent distortion, crop if needed */
+    border-radius: 10px; /* Optional: make it look nice */
+  }

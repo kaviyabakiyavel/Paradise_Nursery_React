@@ -1,10 +1,18 @@
-import LandingPage from './pages/LandingPage';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import ProductPage from "./pages/ProductPage";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage/>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/products" element={<ProductPage />} />
+      </Routes>
+    </>
   );
 }
 
