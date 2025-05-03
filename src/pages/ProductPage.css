@@ -1,6 +1,14 @@
 .plant-image {
-    height: 400px;       /* Set desired standard height */
-    width: 300px;         /* Maintain aspect ratio */
-    object-fit: cover;   /* Prevent distortion, crop if needed */
-    border-radius: 10px; /* Optional: make it look nice */
-  }
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.AddButton {
+  padding: 10px;
+  cursor: pointer;
+  background-color: aliceblue;
+  margin: 0px 10px;
+  font-size: 15px;
+}

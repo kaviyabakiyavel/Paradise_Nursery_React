@@ -8,9 +8,36 @@ Paradise Nursery is a modern, responsive shopping application built with React a
 5. Routing between pages
 6. Global cart state using Context API
 
-# create new paradise-nursery app
-npx create-react-app paradise-nursery
-cd paradise-nursery
-npm start
+Step 1: Initialize Your Project
+- npx create-react-app paradise-nursery
+- cd paradise-nursery
+- npm start
 
-# create src folder 
+Step 2: Set Up File Structure
+src/
+├── app/
+│   └── store.js
+├── features/
+│   └── cart/
+│       ├── cartSlice.js
+│       └── cartSelectors.js
+├── components/
+│   ├── Header.js
+│   ├── ProductCard.js
+│   └── CartItem.js
+├── pages/
+│   ├── LandingPage.js
+│   ├── ProductPage.js
+│   └── CartPage.js
+├── data/
+│   └── products.js
+├── App.js
+└── index.js
+
+Step 3: Create Redux Store
+src/app/store.js
+
+Step 4: Create Cart Slice
+src/features/cart/cartSlice.js
+
+Step 5: Install redux dev tools in chrome 
