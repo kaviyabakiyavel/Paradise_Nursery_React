@@ -4,7 +4,7 @@ Paradise Nursery is a modern, responsive shopping application built with React a
 1. Landing Page with background and Get Started button
 2. Product Listing Page with 6+ plants and Add to Cart
 3. Header with dynamic cart count
-4. Shopping Cart Page with quantity update & delete
+4. Shopping Cart Page with quantity add, update, remove
 5. Routing between pages
 6. Global cart state using Context API
 
@@ -41,3 +41,5 @@ Step 4: Create Cart Slice
 src/features/cart/cartSlice.js
 
 Step 5: Install redux dev tools in chrome 
+
+Step 6: Create CartItem 

@@ -1,0 +1,1 @@
+export const selectCartItems = state => Object.values(state.cart.items);
