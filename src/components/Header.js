@@ -9,7 +9,6 @@ import {selectCartCount} from "../features/cart/cartSelectors";
 function Header() {
   const location = useLocation();
   const cartCount = useSelector(selectCartCount)
-  console.log("cartCount",cartCount)
 
   return (
     <header className="header">

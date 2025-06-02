@@ -15,7 +15,7 @@ const CartPage = () => {
     return (
         <div style={{ margin: "20px" }}>
             <p style={{ fontWeight: 'bold', textAlign: 'center', fontSize: '20px', marginBottom: '20px' }}>Total Cart Amount: ${totalAmount.toFixed(2)}</p>
-            <div>
+            <div style={{ justifyContent: "center", display: "grid", alignContent: "center" }}>
                 {items.map(item => (
                     <CartItem key={item.id} item={item} />
                 ))}
