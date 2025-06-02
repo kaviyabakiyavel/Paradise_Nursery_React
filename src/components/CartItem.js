@@ -6,7 +6,7 @@ const CartItem = ({ item }) => {
   return (
     <div className="cart-item">
       <div className="item-info">
-        <img src={item.image} alt={item.name} width={80} />
+        <img src={item.image} alt={item.name} width={100} height={100} />
         <div className="item-details">
           <h4>{item.name}</h4>
           <p>Unit Price: ${item.price.toFixed(2)}</p>
@@ -14,9 +14,9 @@ const CartItem = ({ item }) => {
         </div>
         <div className='item-controls'>
           <button onClick={() => dispatch(decreaseQuantity(item.id))}>-</button>
-          <span>{item.quanity}</span>
+          <span className="quantity">{item.quantity}</span>
           <button onClick={() => dispatch(increaseQuantity(item.id))}>+</button>
-          <button onClick={() => dispatch(removeItem(item.id))}>Delete</button>
+          <button className="delete-button" onClick={() => dispatch(removeItem(item.id))}>Delete</button>
         </div>
       </div>
     </div>

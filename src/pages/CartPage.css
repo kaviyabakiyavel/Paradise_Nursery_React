@@ -1,0 +1,28 @@
+.cart-buttons {
+  display: flex;
+  flex-direction: column;  /* stack buttons vertically */
+  align-items: center;     /* center buttons horizontally */
+  justify-content: center; /* center buttons vertically if container has height */
+  gap: 15px;               /* space between buttons */
+  margin-top: 30px;
+  height: 150px;           /* optional: give container height for vertical centering */
+}
+.continue-btn {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #2e7d32;
+    margin: 0px 10px;
+    font-size: 15px;
+    border-radius: 2px;
+    color: #fff
+}
+
+.checkout-btn {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #2e7d32;
+    margin: 0px 10px;
+    font-size: 15px;
+    border-radius: 2px;
+    color: #fff
+}

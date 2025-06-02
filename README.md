@@ -40,6 +40,15 @@ src/app/store.js
 Step 4: Create Cart Slice
 src/features/cart/cartSlice.js
 
-Step 5: Install redux dev tools in chrome 
+Step 5: Create Cart Selector 
+src/features/cart/cartSelectors.js
 
-Step 6: Create CartItem 
+Step 7: Install redux dev tools in chrome 
+
+
+How to persist Redux state using localStorage:
+1. Create helper functions to load and save state:
+src\utils\localStorage.js
+
+2. Update your Redux store to preload and save state:
+src\app\store.js
